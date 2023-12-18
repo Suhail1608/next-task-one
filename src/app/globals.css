@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+.app-input{
+  display: flex;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: black;
+  border: 1px solid white;
+  justify-content: space-between;
+  width: 100%;
+ 
+  align-items: end;
+}
+.app-input input{
+  outline: none;
+  width: 100%;
+  background-color: black;
+  border: 1px solid white;
+}
+button{
+  width: fit-content;
+  background-color: white;
+  color: black;
+  padding: 4px 8px;
+  height: 26px;
+  font-size: 14px;
+} 
+.app-container{
+  min-width: 400px;
+  min-height: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 4px 2px white;
+}
+.row-card{
+  margin: 8px 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
