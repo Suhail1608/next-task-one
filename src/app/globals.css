@@ -15,7 +15,11 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+.heading{
+  font-size: 24px;
+  margin: 5px;
+  font-weight: 600;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -51,6 +55,7 @@ button{
   font-size: 14px;
 } 
 .app-container{
+  text-align: center;
   min-width: 400px;
   min-height: 300px;
   padding: 10px;
