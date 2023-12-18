@@ -43,6 +43,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className='app-container'>
+        <div className='heading'>Notes</div>
         <div className='app-input'>
           <label>Title <input onChange={handleOnChangeTitle}></input></label>
           <label>Body <input onChange={handleOnChangeBody}></input></label>
