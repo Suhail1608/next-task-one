@@ -19,6 +19,8 @@
   font-size: 24px;
   margin: 5px;
   font-weight: 600;
+  width: 100%;
+  text-align: center;
 }
 body {
   color: rgb(var(--foreground-rgb));
