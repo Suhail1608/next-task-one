@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import RowCard from './components/RowCard'
+import RowCard from '../components/RowCard'
 import { ChangeEvent, useRef, useState } from 'react'
 
 interface myNotes{
